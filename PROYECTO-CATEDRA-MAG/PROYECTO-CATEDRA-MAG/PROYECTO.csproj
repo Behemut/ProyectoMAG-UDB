@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C84229D-482D-42E4-9C1E-1255309BA916}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PROYECTO_CATEDRA_MAG</RootNamespace>
+    <AssemblyName>PROYECTO-CATEDRA-MAG</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>PROYECTO_CATEDRA_MAG.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GMap.NET.Core">
+      <HintPath>..\..\RECURSOS\dll\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms">
+      <HintPath>..\..\RECURSOS\dll\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsPresentation">
+      <HintPath>..\..\RECURSOS\dll\GMap.NET.WindowsPresentation.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\RECURSOS\dll\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\RECURSOS\dll\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\RECURSOS\dll\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="PictureBoxAbouAmmar">
+      <HintPath>..\..\RECURSOS\dll\PictureBoxAbouAmmar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmBienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBienvenida.Designer.cs">
+      <DependentUpon>frmBienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsUsuarios.cs" />
+    <Compile Include="Conexion.cs" />
+    <Compile Include="frmencuestador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmencuestador.Designer.cs">
+      <DependentUpon>frmencuestador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformacion.Designer.cs">
+      <DependentUpon>frmInformacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngresoEPPA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresoEPPA.Designer.cs">
+      <DependentUpon>frmIngresoEPPA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngresoIAPH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresoIAPH.Designer.cs">
+      <DependentUpon>frmIngresoIAPH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmsplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsplash.Designer.cs">
+      <DependentUpon>frmsplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsEPPA.cs" />
+    <Compile Include="cIsAPH.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmBienvenida.resx">
+      <DependentUpon>frmBienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmencuestador.resx">
+      <DependentUpon>frmencuestador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformacion.resx">
+      <DependentUpon>frmInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngresoEPPA.resx">
+      <DependentUpon>frmIngresoEPPA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngresoIAPH.resx">
+      <DependentUpon>frmIngresoIAPH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsplash.resx">
+      <DependentUpon>frmsplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdvXq0aM_400x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-twitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-gmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004-www.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\001-management.png" />
+    <Content Include="Resources\002-survey.png" />
+    <Content Include="Resources\003-route.png" />
+    <Content Include="Resources\004-report.png" />
+    <Content Include="Resources\005-map.png" />
+    <None Include="Resources\1-3.jpg" />
+    <Content Include="Resources\4campo.jpg" />
+    <Content Include="Resources\570176fff3073d725b095c4dfe7de76a.jpg" />
+    <None Include="Resources\570176fff3073d725b095c4dfe7de76a1.jpg" />
+    <Content Include="Resources\835FE97FF29C119245B19876ED343774.jpg" />
+    <Content Include="Resources\agronegocios147.jpg" />
+    <Content Include="Resources\arton35964.jpg" />
+    <None Include="Resources\cdvXq0aM_400x4001.jpg" />
+    <Content Include="Resources\customer-service.png" />
+    <None Include="Resources\esaColorTransparente.png" />
+    <None Include="Resources\eliminar-icono-png-7.png" />
+    <Content Include="Resources\filosofia_mag.jpg" />
+    <Content Include="Resources\forestal.jpg" />
+    <None Include="Resources\play-button.png" />
+    <None Include="Resources\home.png" />
+    <Content Include="Resources\hugo-flores.jpg" />
+    <None Include="Resources\question.png" />
+    <None Include="Resources\logoudb.png" />
+    <None Include="Resources\icon-login.png" />
+    <None Include="Resources\icon-password.png" />
+    <None Include="Resources\img_110757.png" />
+    <None Include="Resources\icon-actualizar.png" />
+    <None Include="Resources\icon-save.png" />
+    <Content Include="Resources\ministerio.jpg" />
+    <Content Include="Resources\orestes-ortez.jpg" />
+    <Content Include="Resources\pesquera.jpg" />
+    <Content Include="Resources\Pitalito-le-Apunta-a-Tener-la-Caficultura-mas-Moderna-y-Tecnificada-del-Pais.jpg" />
+    <Content Include="Resources\planning.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

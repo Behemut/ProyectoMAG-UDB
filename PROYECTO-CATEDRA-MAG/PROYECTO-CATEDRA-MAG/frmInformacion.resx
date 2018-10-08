@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="metroLabel53.Text" xml:space="preserve">
+    <value>Promover una agricultura, ganadería, forestería, pesca y
+acuicultura, sustentable, resiliente y adaptable al cambio 
+climático, especialmente en la zona del Corredor Seco,
+a partir de de la formulación de estrategias ,planes y de
+la ejecución de acciones para contrarrestar los efectos del
+cambio climático y la recuperación de los recursos naturales</value>
+  </data>
+  <data name="metroLabel45.Text" xml:space="preserve">
+    <value>En el año de 1911, al asumir la Presidencia de la República el
+Dr. Manuel Enrique Araujo, el 1º de marzo de dicho año,en 
+el Decreto de Organización del Gabinete de Gobierno , creó
+la Secretaría de Agricultura.
+
+Posteriormente, la Asamblea Nacional Legislativa, por Decreto
+de fecha 30 de marzo de 1911, definió las atribuciones  de la 
+SECRETARÍA DE AGRICULTURA, atribuyéndole el régimen y
+gobierno de la industria agrícola que consignaba el Art. 1º. 
+De la Ley Agraria de entonces, agregándole además la inspección
+de los caminos vecinales y municipales, lo relativo a los impuestos
+sobre los productos agrícolas; la importación de maquinaria
+agrícola y otros mas
+
+A pesar de que, posiblemente por la situación económica de la época,
+el Ministerio no pudo operar independientemente, el prestigio, la
+constancia de su labor modesta y las necesidades del mejoramiento
+agropecuario nacional, hicieron que en Octubre de 1946, ya con la
+denominación del MINISTERIO DE AGRICULTURA E INDUSTRIA, 
+</value>
+  </data>
+  <data name="metroLabel48.Text" xml:space="preserve">
+    <value>Ser una institución de excelencia, moderna y eficiente; reconocida por la 
+población nacional y la comunidad internacional, por la calidad de sus
+servicios especializados, líder del desarrollo sustentable de los subsectores
+agrícola, pecuario, forestal, pesquero y  acuícola, y su medio rural, que
+promueve oportunidades incluyentes y equitativas para el buen vivir de las
+familias salvadoreñas.</value>
+  </data>
+  <data name="metroLabel47.Text" xml:space="preserve">
+    <value>Somos la institución que formula y ejecuta políticas que promueven el desarrollo
+sustentable agrícola, pecuario, forestal, pesquero y acuícola, la seguridad y soberanía
+alimentaria; con enfoque de adaptación al cambio climático, a través de planes,
+programas y proyectos, brindando servicios de calidad para los actores del sector,
+con transparencia, inclusión y equidad para el buen vivir de las familias salvadoreñas.</value>
+  </data>
+  <data name="metroLabel49.Text" xml:space="preserve">
+    <value>Diversificar y aumentar la producción y productividad agrícola,
+mediante asistencia técnica, capacitación e incentivos a las
+familias productoras,para la disponibilidad de alimentos,
+generación de empleo e ingresos, reducción de la pobreza
+rural, soberanía y seguridad alimentaria del país, con énfasis
+en el apoyo a la agricultura familiar. Asimismo, garantizar el
+abastecimiento  de granos básicos, principalmente de maíz
+y frijol, mediante entrega de paquetes agrícolas.
+</value>
+  </data>
+  <data name="metroLabel50.Text" xml:space="preserve">
+    <value>Potenciar el desarrollo de la ganadería de leche, carne y de
+doble propósito, con mejora genética, asistencia técnica,
+alimentación, sanidad y reproducción animal, así como la
+calidad e inocuidad de los productos para alimentación
+humana y de uso industrial. Incluye la producción de miel
+de abejas, aves de traspatio y otras especies animales.</value>
+  </data>
+  <data name="metroLabel51.Text" xml:space="preserve">
+    <value>Potenciar el desarrollo de la ganadería de leche, carne y de
+doble propósito, con mejora genética, asistencia técnica,
+alimentación, sanidad y reproducción animal, así como la
+calidad e inocuidad de los productos para alimentación
+humana y de uso industrial. Incluye la producción de miel
+de abejas, aves de traspatio y otras especies animales.</value>
+  </data>
+  <data name="metroLabel52.Text" xml:space="preserve">
+    <value>Reactivar y fomentar el desarrollo de la caficultura nacional con
+acciones integrales para el manejo agronómico de las plantaciones
+de café, asistencia técnica, investigación, capacitación, incentivos,
+fungicidas para el combate de la roya y plantas de café de
+variedades resistentes a la roya para la renovación del parque 
+cafetalero en las seis cordilleras:
+
+-Apaneca-Ilamatepec, Quezaltepec-Bálsamo,
+-Tecapa-Chinameca, Chichontepec, Cacahuatique 
+-Alotepec-Metapán.
+</value>
+  </data>
+  <data name="metroLabel54.Text" xml:space="preserve">
+    <value>Promover un modelo asociativo en las cooperativas del sector
+reformado, con enfoque de negocios agropecuarios solidarios,
+para ser lo suficientemente productivas y competitivas, para que
+haya producción de alimentos, ingresos ,mejora de su calidad de
+vida y desarrollo en sus territorios. Implica asesoría y personería
+jurídica y enlace con la industria y el comercio</value>
+  </data>
+  <data name="metroLabel55.Text" xml:space="preserve">
+    <value>Profesion:
+-Licenciado en Economía, Universidad de El Salvador
+-Magister en Dirección y Gestión Pública Local
+-Egresado de la Maestría en Administración Financiera
+
+Trayectoria Politica:
+-Ministro de Agricultura y Ganadería
+-Diputado propietario por el departamento de
+  San Salvador / Período 2012 – 2015
+-Comisión Agropecuaria (Presidente)
+-Fundador del partido político FMLN
+
+Trayectoria Profesional:
+-Asesor municipal en las alcaldías de los
+  municipios de Ciudad Delgado y Soyapango
+-Gerente general en la alcaldía de San Marcos
+</value>
+  </data>
+  <data name="metroLabel56.Text" xml:space="preserve">
+    <value>Profesion:
+-Licenciado en Economía
+
+Trayectoria Profesional:
+-Viceministro de Agricultura y Ganadería
+-Director Ejecutivo, Fundación CORDES
+-Miembro del Equipo Coordinador en la
+ Comisión Nacional de Tierras, FMLN 
+-Auxiliar de auditoría, Instituto Salvadoreño de
+  Transformación Agraria (ISTA)
+-Promotor social – asistencia a cooperativas, 
+ Ministerio de Agricultura y Ganadería
+
+</value>
+  </data>
+  <data name="metroLabel46.Text" xml:space="preserve">
+    <value>Este sistema tiene como objetivo principal
+facilitar el trabajo a los encuestadores y 
+administradores del Ministerio de Agricultura
+y Ganaderia de El Salvador , de esta forma el
+trabajo se realizara de una forma mas efectiva,
+dinamica y precisa, asimismo, una mejor
+comprension e interpretacion de los datos
+obtenidos por los encuestadores, y un mejor
+control y administracion de los resultados
+obtenidos por parte de los administradores
+
+</value>
+  </data>
+  <data name="metroLabel57.Text" xml:space="preserve">
+    <value>El sistema fue desarrollado en la Universidad Don Bosco,
+por estudiantes de  la facultad de Ingenieria, de la carrera
+de Ingenieria en Sistemas asociado con el Ministerio de
+Agricultura y Ganaderia de El Salvador, los nombres de
+dichos estudiantes y participantes en la realizacion de 
+este Proyecto son:
+
+-Eduardo Antonio Barillas Nerio
+-Alan Wilfredo Cañas Umaña
+-Daniel Alejandro Fernandez Monterroza
+-Daniel Jose Menjivar Escobar
+-Oswaldo Alberto Valle Serrano
+-Kevin Eliu Pleitez Hercules
+
+</value>
+  </data>
+  <data name="metroLabel59.Text" xml:space="preserve">
+    <value>Dedicamos nuestro mayor esfuerzo a satisfacer las necesidades de los
+productores y productoras, ediante un equipo de profesionales 
+comprometidos con la calidad, la integridad y el respeto a 
+nuestros usuarios.</value>
+  </data>
+</root>
